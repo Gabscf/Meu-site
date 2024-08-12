@@ -144,16 +144,15 @@ padding: 1.2em;
     }
         
 .section-inicio{
-    /* border: 2px solid var(--primary-color3); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-image: url('Imagens/bgf-5.png');
     background-size: cover;
-          /* background-position: center; Posicionar no centro */
+          
           background-position: center;
-          background-repeat: no-repeat; /* Não repetir a imagem */
+          background-repeat: no-repeat; 
 }
 
     .img-cachorro{
@@ -165,13 +164,13 @@ animation: movimento 2s ease-in-out infinite;
 
 @keyframes movimento {
  0% {
-   transform: translateY(0px); /* Posição inicial da imagem */
+   transform: translateY(0px); 
  }
  50% {
-   transform: translateY(-10px); /* Imagem move para cima */
+   transform: translateY(-10px); 
  }
  100% {
-   transform: translateY(0px); /* Imagem volta para a posição inicial */
+   transform: translateY(0px); 
  }
 }
 
@@ -311,16 +310,6 @@ animation: movimento 2s ease-in-out infinite;
         padding: .4em 100%;
           }
 
-            /* .p2-projetos{
-            background-color: var(--primary-color);
-            padding: 3.5em .6em;
-            text-align: center;
-            align-items: center;
-            border-radius: 8%;
-            width: 10em;
-            margin: auto;
-          } */
-
           .projetosScreen{
             display: none;
           }
@@ -412,10 +401,10 @@ animation: movimento 2s ease-in-out infinite;
                 align-items: center;
                 border-bottom: 2px solid #ccccccae;
                 position: fixed;
-                  top: 0; /* Posição superior do menu */
-                  left: 0; /* Posição esquerda do menu */
-                  width: 100%; /* Largura total do menu */
-                  z-index: 100; /*Posicionar o menu acima de outros elementos */
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  z-index: 100; 
                  }
 
                  .navbar{
@@ -547,11 +536,10 @@ animation: movimento 2s ease-in-out infinite;
               min-height:100vh;
               background-image: linear-gradient(to right, #141745 0%, #656687 100%);
               border: initial;
-              background-image: url('Imagens/bgf-5.png'); /* Caminho para a imagem */
-          background-size: cover;
-          /* background-position: center; Posicionar no centro */
-          background-position: center;
-          background-repeat: no-repeat; /* Não repetir a imagem */
+              background-image: url('Imagens/bgf-5.png');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat; 
           
           
           }
@@ -760,11 +748,10 @@ animation: movimento 2s ease-in-out infinite;
           .articleHabilidades{
             border: 2px solid var(--primary-color);
             width: 70vw;
-background-image: url(Imagens/background-foto2.jpg);
-background-size: cover;
-          /* background-position: center; Posicionar no centro */
-          background-position: center;
-          background-repeat: no-repeat; /* Não repetir a imagem */
+            background-image: url(Imagens/background-foto2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; /* Não repetir a imagem */
 
             display: flex;
             justify-content: space-around;
@@ -785,12 +772,12 @@ background-size: cover;
               border-top: 2px solid var(--primary-color);
               }
 
-              .certContainer{
-display: flex;
-flex-direction: column;
+          .certContainer{
+              display: flex;
+              flex-direction: column;
               }
 
-              .p-cert{
+            .p-cert{
                 font-size: 1.6em;
                 font-weight: 600;
                 width: 40vw;
